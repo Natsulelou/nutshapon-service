@@ -155,7 +155,7 @@ describe('Share CRUD routes tests', function () {
         .end(done);
     });
 
-    xit('should be share post not use token 1', function (done) {
+    xit('should be share post not use token', function (done) {
 
         request(app)
             .post('/api/shares')
